@@ -1,0 +1,142 @@
+/* L SIZE */
+
+@media screen and (min-width: 1280px) {
+    /* main content */
+    .maincontent{
+        width: 100%;
+        min-width: 1280px;
+        height: 700px;
+    }
+    
+    .contentRect{
+        margin: 100px auto;
+        width: 800px;
+        height: 500px;
+    }
+    .chatTitle{
+        width: 100%;
+        font-size: 30px;
+        background-color: black;
+        text-align: center;
+        color: white;
+    }
+    .chatContent{
+        width: 100%;
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    .chatContent li{
+        color: white;
+        list-style-type: none;
+        height: 50px;
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    .textInput{
+        width: 100%;
+        height: 100px;
+    }
+    .textInput textarea{
+        resize : none;
+        box-sizing:border-box;
+        overflow:hidden;
+        width: 100%;
+        height: 35px;
+        font-size: 30px;
+    }
+}
+
+/* M SIZE */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+     /* main content */
+    .maincontent{
+        width: 100%;
+        min-width: 768px;
+        height: 500px;
+    }
+    .contentRect{
+        margin: 100px auto;
+        width: 600px;
+        height: 400px;
+    }
+    .chatTitle{
+        width: 100%;
+        font-size: 25px;
+        background-color: black;
+        text-align: center;
+        color: white;
+    }
+    .chatContent{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    .chatContent li{
+        color: white;
+        list-style-type: none;
+        height: 40px;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .textInput{
+        width: 100%;
+        height: auto;
+    }
+    .textInput textarea{
+        resize : none;
+        box-sizing:border-box;
+        overflow:hidden;
+        width: 100%;
+        height: 35px;
+        font-size: 30px;
+    } 
+}
+
+/* S SIZE */
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+    /* main content */
+    .maincontent{
+        width: 100%;
+        min-width: 320px;
+        height: 500px;
+    }
+    .contentRect{
+        margin: 100px auto;
+        width: 400px;
+        height: 300px;
+    }
+    .chatTitle{
+        width: 100%;
+        font-size: 20px;
+        background-color: black;
+        text-align: center;
+        color: white;
+    }
+    .chatContent{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    .chatContent li{
+        color: white;
+        list-style-type: none;
+        height: 30px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .textInput{
+        width: 100%;
+        height: auto;
+    }
+    .textInput textarea{
+        resize : none;
+        box-sizing:border-box;
+        overflow:hidden;
+        width: 100%;
+        height: 35px;
+        font-size: 30px;
+    } 
+    
+}

@@ -1,0 +1,210 @@
+/* L SIZE */
+
+@media screen and (min-width: 1280px) {
+    .maincontent {
+        height: 500px;
+    }
+    .formRect{
+        width: 700px;
+        height: 300px;
+        margin: 200px auto;
+        background-color: rgb(175, 0, 8);
+        border-radius: 30px;
+    }
+    .forminput{
+        font-size: 28px;
+        color: white;
+        position: relative;
+        top:50px;
+        left:60px;
+    } 
+    .accountLabel{
+        position: relative;
+        left:19px;
+    }
+    .passwordLabel{
+        
+    }
+    #account{
+        position: relative;
+        left:109px;
+        width: 300px;
+        top:-5px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    #password{
+        position: relative;
+        left:88px;
+        width: 300px;
+        top:-5px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    #submitBtn{
+        color: white;
+        font-size: 30px;
+        position: relative;
+        left:400px;
+        top:90px;
+        width: 180px;
+        height: 60px;
+        background: rgb(115,0,4);
+        border: none;
+        border-radius: 10px;
+    }
+    .createAccount{
+        position: relative;
+        top:200px;
+        left:100px;
+        text-decoration:none;
+        color:white;
+        background: rgb(115,0,4);
+        border: none;
+        height: 50px;
+        width: 500px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+}
+
+/* M SIZE */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .maincontent {
+        height: 600px;
+    }
+    .formRect{
+        width: 500px;
+        height: 250px;
+        margin: 100px auto;
+        background-color: rgb(175, 0, 8);
+        border-radius: 30px;
+    }
+    .forminput{
+        font-size: 23px;
+        color: white;
+        position: relative;
+        top:30px;
+        left:40px;
+    } 
+    .accountLabel{
+        position: relative;
+        left:19px;
+    }
+    .passwordLabel{
+        
+    }
+    #account{
+        position: relative;
+        left:65px;
+        width: 200px;
+        top:-3px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    #password{
+        position: relative;
+        left:48px;
+        width: 200px;
+        top:-3px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    #submitBtn{
+        color: white;
+        font-size: 25px;
+        position: relative;
+        left:250px;
+        top:70px;
+        width: 180px;
+        height: 60px;
+        background: rgb(115,0,4);
+        border: none;
+        border-radius: 10px;
+    }
+    .createAccount{
+        position: relative;
+        top:150px;
+        left:75px;
+        text-decoration:none;
+        color:white;
+        background: rgb(115,0,4);
+        border: none;
+        height: 50px;
+        width: 350px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+}
+
+/* S SIZE */
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+    .maincontent {
+        min-width: 320px;
+        height: 500px;
+    }
+    .formRect{
+        width: 300px;
+        height: 120px;
+        margin: 50px auto;
+        background-color: rgb(175, 0, 8);;
+        border-radius: 30px;
+    }
+    .forminput{
+        font-size: 20px;
+        color: white;
+        position: relative;
+        top:20px;
+        left:10px;
+    } 
+    .accountLabel{
+        position: relative;
+        left:11px;
+    }
+    .passwordLabel{
+        
+    }
+    #account{
+        position: relative;
+        left:35px;
+        top:-2px;
+        width: 150px;
+        height: 15px;
+        border-radius: 10px;
+    }
+    #password{
+        position: relative;
+        left:20px;
+        top:-2px;
+        width: 150px;
+        height: 15px;
+        border-radius: 10px;
+    }
+    #submitBtn{
+        color: white;
+        font-size: 15px;
+        position: relative;
+        top:10px;
+        left: 170px;
+        width: 80px;
+        height: 25px;
+        background: rgb(115,0,4);
+        border: none;
+        border-radius: 10px;
+    }
+    .createAccount{
+        position: relative;
+        top:40px;
+        left:25px;
+        text-decoration:none;
+        color:white;
+        background: rgb(115,0,4);
+        border: none;
+        height: 30px;
+        width: 250px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+}

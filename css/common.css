@@ -1,0 +1,331 @@
+/* L SIZE */
+
+@media screen and (min-width: 1280px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    body {
+        background-image: url("../image/background.jpg");
+    }
+    /* top */
+    .top {
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 1.5625%;
+    }
+    /* top home */
+    .top .home i {
+        font-size: 80px;
+        vertical-align: middle;
+    }
+    /*top account*/
+    .account {
+        display: inline-flex;
+        margin: 2% 0.8% 1.6% 0%;
+    }
+    i, p {
+        color: white;
+    }
+    .account i {
+        font-size: 32px;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    .account a {
+        text-decoration: none;
+    }
+    .account p {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .sign_in {
+        margin-right: 24px;
+    }
+    .shopping-cart{
+        margin-right: 50px;
+    }
+    .shopping-cart button{
+        
+        font-size: 25px;
+        border-radius: 10px;
+        border: none;
+        width: 100px;
+        height: 40px;
+        background-color: rgb(175, 0, 8);
+    }
+    /*menu*/
+    .menu {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.75);
+        width: 100%;
+        height: 65px;
+    }
+    .menu_btns {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+    }
+    .menu_btns a {
+        width: 100%;
+        color: white;
+        text-decoration: none;
+    }
+    .menu_btns1 {
+        width: 90%;
+    }
+    .menu li {
+        width: 250px;
+        height: auto;
+        list-style-type: none;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .menu li:hover {
+        background-color: gray;
+    }
+    /* footer */
+    footer {
+        background-color: rgba(0, 0, 0, 0.75);
+        width: 100%;
+        height: 60px;
+        margin-top: 100px;
+    }
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+        padding: 15px;
+    }
+    .bottom p {
+        width: 500px;
+        text-align: center;
+    }
+    /* rwd */
+    .showmenu {
+        display: none;
+    }
+    .RWDL{
+        display:flex;
+    }
+    .RWDS{
+        display: none;
+    }
+}
+
+/* M SIZE */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    body {
+        background-image: url("../image/background.jpg");
+    }
+    /* top */
+    .top {
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 1.5625%;
+    }
+    /* top home */
+    .top .home i {
+        font-size: 80px;
+        vertical-align: middle;
+    }
+    /*top account*/
+    .account {
+        display: inline-flex;
+        margin: 2% 0.8% 1.6% 0%;
+    }
+    i, p {
+        color: white;
+    }
+    .account i {
+        font-size: 32px;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    .account a {
+        text-decoration: none;
+    }
+    .account p {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .sign_in {
+        margin-right: 24px;
+    }
+    .shopping-cart{
+        margin-right: 50px;
+    }
+    .shopping-cart button{
+        
+        font-size: 25px;
+        border-radius: 10px;
+        border: none;
+        width: 100px;
+        height: 40px;
+        background-color: rgb(175, 0, 8);
+    }
+    /*menu*/
+    .menu {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.75);
+        width: 100%;
+        height: auto;
+    }
+    .menu_btns {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+    }
+    .menu_btns a {
+        width: 100%;
+        color: white;
+        text-decoration: none;
+    }
+    .menu_btns1 {
+        width: 90%;
+    }
+    .menu li {
+        width: 120px;
+        height: auto;
+        list-style-type: none;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .menu li:hover {
+        background-color: gray;
+    }
+    /* footer */
+    footer {
+        background-color: rgba(0, 0, 0, 0.75);
+        width: 100%;
+        height: 60px;
+        margin-top: 100px;
+    }
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+        font-size: 12px;
+        padding: 14px;
+    }
+    .bottom p {
+        width: 400px;
+        text-align: center;
+    }
+    /* rwd */
+    .showmenu {
+        display: none;
+    }
+    .RWDL{
+        display:flex;
+    }
+    .RWDS{
+        display: none;
+    }
+}
+
+/* S SIZE */
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    html {
+        min-width: 320px;
+    }
+    body {
+        background-image: url("../image/background.jpg");
+    }
+    /* top */
+    .top{
+        display: none;
+    }
+    /* menu */
+    .menu_btns {
+        /*隱藏選單開始*/
+        max-height: 0;
+        overflow: hidden;
+        /*隱藏選單結束*/
+        /*漸變效果*/
+        transition: max-height 0.5s;
+        margin-top: 1px;
+        /*絕對定位疊在網頁上*/
+        position: absolute;
+        /*權重*/
+        z-index: 100;
+        /*header 80px+1px boder 線條*/
+        top: 86px;
+        /* left:0 right:0表示滿版 */
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.75);
+    }
+    .menu_btns li {
+        float: none;
+        border-bottom: 1px solid white;
+        height: 50px;
+        text-align: center;
+    }
+    .menu_btns li a {
+        display: block;
+        height: 100%;
+        transition: all 1.0s;
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .menu_btns li a:hover {
+        background: gray;
+    }
+    .showmenubar {
+        width: 100%;    
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.75);
+        margin-top: 36px;
+        border-bottom: 1px solid white;
+    }
+    .showmenu {
+        display: block;
+        float: right;
+        margin: 10px;
+        color: white;
+    }
+    .showmenu i {
+        font-size: 30px;
+    }
+    .separateLine{
+        background-color: black;
+    }
+    /*jQuery點擊後動態在 body 加上 class */
+    .menu-show .menu_btns {
+        max-height: 500px;
+    }
+    .menu_btns2 {
+        display: none;
+    }
+    /* footer */
+    footer {
+        display: none;
+    }
+    /* rwd */
+    .RWDL{
+        display: none;
+    }
+    .RWDS{
+        display: block;
+    }
+}

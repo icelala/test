@@ -1,0 +1,108 @@
+/* L SIZE */
+
+@media screen and (min-width: 1280px) {
+    /* main content */
+    .maincontent {
+        width: 100%;
+        height: 1000px;
+        margin-top: 50px;
+    }
+    .maincontent a{
+        display: block;
+        width: 80%;
+        background-color: rgb(175, 0, 8);
+        margin-left: 10%;
+        height: 300px;
+        text-decoration:none;
+        margin-top: 50px;
+        border-radius:20px;
+    }
+    .button_photo {
+        overflow:hidden;
+    }
+    .maincontent img{
+        display:block; 
+        margin:auto;
+        height: auto;
+        max-width: 80%;
+    }
+    .maincontent p{
+        font-size: 30px;
+        
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+/* M SIZE */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+     /* main content */
+     .maincontent {
+        width: 100%;
+        height: 1000px;
+        margin-top: 50px;
+        text-align : center;
+    }
+    .maincontent a{
+        display: block;
+        width: 80%;
+        background-color: rgb(175, 0, 8);
+        margin-left: 10%;
+        height: 200px;
+        text-decoration:none;
+        margin-top: 50px;
+        border-radius:20px;
+    }
+    .button_photo {
+        overflow:hidden;
+    }
+    .maincontent img{
+        display:block; 
+        margin:auto;
+        width: auto;
+        height: 300px;
+        max-width: 100%;
+    }
+    .maincontent p{
+        font-size: 30px;
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+/* S SIZE */
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+    /* main content */
+    .maincontent {
+        width: 100%;
+        height: 1000px;
+        margin-top: 50px;
+        text-align : center;
+    }
+    .maincontent a{
+        display: block;
+        width: 80%;
+        background-color: rgb(175, 0, 8);
+        margin-left: 10%;
+        height: 100px;
+        text-decoration:none;
+        margin-top: 50px;
+        border-radius:20px;
+    }
+    .button_photo {
+        overflow:hidden;
+    }
+    .maincontent img{
+        display:block; 
+        margin:auto;
+        height: 150px;
+        max-width: 100%;
+    }
+    .maincontent p{
+        font-size: 30px;
+        margin-left: 10%;
+        width: 80%;
+    }
+}
