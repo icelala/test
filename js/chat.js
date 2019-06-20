@@ -5,6 +5,7 @@ function chat(e) {
     var yyyy = today.getFullYear();
 
     today = mm  + dd  + yyyy;
+    alert(today);
     if(e.keyCode == 13){
         db.collection('message').doc(today).set({
             name : getCookie("name"),
