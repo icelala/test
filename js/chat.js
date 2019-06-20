@@ -1,13 +1,9 @@
 function chat(e) {
     var today = new Date();
-    var dd = String(today.getDate()).padStart(2, '0');
-    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-    var yyyy = today.getFullYear();
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate() + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
-    today = mm  + dd  + yyyy;
-    alert(today);
     if(e.keyCode == 13){
-        db.collection('message').doc(today).set({
+        db.collection('message').doc(date).set({
             name : getCookie("name"),
             message : document.getElementById("chat").value
         }).then(function(){
